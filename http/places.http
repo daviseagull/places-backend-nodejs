@@ -1,0 +1,36 @@
+### create a new place
+POST http://localhost:500/api/places/
+Content-Type: application/json
+
+{
+    "title": "Neo Quimica Arena",
+    "description": "Estádio do Corinthians",
+    "coordinates": {
+        "lat": "12.33",
+        "lng": "1235.33"
+    },
+    "address": "Itaquera",
+    "creator": "u2"
+}
+
+### get a place by id
+GET http://localhost:500/api/places/6498d1878f35165c3602958b
+Content-Type: application/json
+
+### delete a place by id
+DELETE http://localhost:500/api/places/6498d1878f35165c3602958b
+Content-Type: application/json
+
+### get a place by user id
+GET http://localhost:500/api/places/user/u2
+Content-Type: application/json
+
+###
+PATCH http://localhost:500/api/places/6498d1878f35165c3602958b
+Content-Type: application/json
+
+{
+    "title": "Teste",
+    "description": "teste2"
+}
+
