@@ -10,7 +10,7 @@ Content-Type: application/json
         "lng": "1235.33"
     },
     "address": "Itaquera",
-    "creator": "u2"
+    "creator": "649ae7d5f3d110ac77a48a25"
 }
 
 ### get a place by id
@@ -18,7 +18,7 @@ GET http://localhost:500/api/places/6498d1878f35165c3602958b
 Content-Type: application/json
 
 ### delete a place by id
-DELETE http://localhost:500/api/places/6498d1878f35165c3602958b
+DELETE http://localhost:500/api/places/649ae8f459d5cc81786c2cb1
 Content-Type: application/json
 
 ### get a place by user id
